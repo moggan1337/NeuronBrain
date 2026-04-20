@@ -5,7 +5,7 @@ This module implements neural circuit simulations including networks
 of interconnected neurons with various topologies.
 """
 
-from .network import NeuralNetwork, NetworkTopology
+from .network import NeuralNetwork, NetworkTopology, NetworkConfig
 from .cortical_column import CorticalColumn
 
 __all__ = [

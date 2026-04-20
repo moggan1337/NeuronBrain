@@ -85,6 +85,9 @@ class IzhikevichParameters(NeuronParameters):
     
     # Coupling parameters for network simulations
     w: float = 1.0  # Synaptic weight scaling
+    
+    # Description
+    description: str = ""
 
 
 # Preset parameter configurations for different neuron types
@@ -323,7 +326,7 @@ class IzhikevichNeuron(Neuron):
         
         return v_new
     
-    def update RK4(self, dt: float, input_current: float) -> float:
+    def update_RK4(self, dt: float, input_current: float) -> float:
         """
         Update using 4th-order Runge-Kutta method.
         

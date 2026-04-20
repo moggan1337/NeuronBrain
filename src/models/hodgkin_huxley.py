@@ -18,6 +18,7 @@ Reference:
 
 import numpy as np
 from typing import Dict, Optional
+from dataclasses import dataclass
 from .base import Neuron, NeuronParameters, NeuronType, NeuronState
 
 

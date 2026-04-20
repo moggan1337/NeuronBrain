@@ -6,7 +6,7 @@ and other plasticity mechanisms.
 """
 
 from .stdp import STDP, STDPParameters
-from .plasticity import SynapticPlasticity, HomeostaticPlasticity
+from .plasticity import SynapticScaling, IntrinsicPlasticity, BCMPlasticity, OjaLearningRule
 from .stdp_factory import STDPFactory
 
 __all__ = [
