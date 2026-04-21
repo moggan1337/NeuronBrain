@@ -8,6 +8,24 @@
 
 NeuronBrain is a comprehensive Python library for simulating biological neural networks. It provides accurate implementations of well-established neural dynamics models, synaptic mechanisms, and plasticity rules, making it suitable for both research and educational purposes.
 
+## 🎬 Demo
+![NeuronBrain Demo](demo.gif)
+
+*Biological neural network simulation*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Network Builder | ![builder](screenshots/network-builder.png) |
+| Simulation View | ![sim](screenshots/simulation.png) |
+| Spike Raster | ![raster](screenshots/spike-raster.png) |
+
+## Visual Description
+Network builder shows neurons and synapses being connected. Simulation view displays membrane potentials updating in real-time. Spike raster plots neuron firing patterns over time.
+
+---
+
+
 ## Table of Contents
 
 - [Features](#features)
